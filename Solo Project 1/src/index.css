@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* css colour variables */
+:root {
+    --blue-grey: #374151;
+    --blue: #5093E2;
+    --dark-grey: #1A1B21;
+    --light-black: #161619;
+    --light-grey: #918E9B;
+    --light-orange: #F3BF99;
+    --medium-grey: #23252C;
+    --off-white: #DCDCDC;
+    --white: #FFFFFF;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    background-color: var(--medium-grey);
+    margin: auto;
+}
+
+.container {
+    align-items: center;
+    background: var(--dark-grey);
+    border-radius: 25px 25px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 317px;
+    min-width: 316px;
+}
+
+/* info component */
+.img {
+    border-radius: 25px 25px 0 0;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.name {
+    color: var(--white);
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 69px 0 70px;
+    padding-top: 21px;
+    text-align: center;
+}
+
+.job-title {
+    color: var(--light-orange);
+    font-size: 12.8px;
+    font-weight: 400;
+    margin: 6.1px 0 0 0;
+    text-align: center;
+}
+
+.website {
+    color: var(--off-white);
+    font-size: 10.24px;
+    margin-bottom: 15px;
+    margin-top: 8.8px;
+    text-align: center;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+}
+
+.email, .linkedin {
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    height: 34px;
+    width: 115px;
+}
+
+.email {
+    background: var(--white);
+    border: 2px solid var(--white);
+    color: var(--blue-grey);
+    letter-spacing: 0.3px;
+}
+
+.linkedin {
+    background: var(--blue);
+    border: 2px solid var(--blue);
+    color: var(--white);
+    letter-spacing: 0.3px;
+}
+
+.fa-linkedin {
+    color: var(--white);
+    padding-right: 8px;
+}
+
+.fa-envelope {
+    padding-right: 8px;
+}
+
+/* about and interest component */
+.about-component, .interest-component {
+    color: var(--off-white);
+    font-size: 10.24px;
+    line-height: 1.1rem;
+    margin: 0 34px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-heading {
+    color: var(--white);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 25px 0 0 0;
+}
+
+.interest-heading {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.about-paragraph {
+    margin-top: 5px;
+}
+
+/* link component */
+.links {
+    align-items: center;
+    background: var(--light-black);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 24px;
+    min-height: 64px;
+    width: 100%;
+}
+
+.fa-twitter, .fa-facebook-f, .fa-instagram, .fa-github {
+    background: var(--light-grey);
+    border-radius: 2px;
+}
+
+.fa-twitter {
+    padding: 3px 3px 2px 3px;
+}
+
+.fa-facebook-f {
+    padding: 3px 6px;
+}
+
+.fa-instagram {
+    padding: 3px 4px;
+}
+
+.fa-github {
+    padding: 3px;
+}
+
+/* media queries */
+@media only screen  and (min-width: 400px) {
+    #root {
+        margin-top: 10%;
+    }
+}

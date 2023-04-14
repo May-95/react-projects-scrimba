@@ -2,7 +2,7 @@ import photo from "../images/photo.jpg";
 
 export default function Info() {
   return (
-    <div>
+    <div className="info-component">
       <img
         className="img"
         src={photo}

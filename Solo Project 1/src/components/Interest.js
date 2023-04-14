@@ -1,6 +1,6 @@
 export default function Interest() {
   return (
-    <div>
+    <div className="interest-component">
       <h2 className="interest-heading">Interests</h2>
       <p className="interest-paragraph">
         Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.

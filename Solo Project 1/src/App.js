@@ -5,7 +5,7 @@ import Links from "./components/Links.js";
 
 export default function App() {
   return (
-    <div>
+    <div className="container">
       <Info />
       <About />
       <Interest />
