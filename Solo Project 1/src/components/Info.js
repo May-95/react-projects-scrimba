@@ -2,7 +2,7 @@ import photo from "../images/photo.jpg";
 
 export default function Info() {
   return (
-    <div className="info-component">
+    <section className="info-component">
       <img
         className="img"
         src={photo}
@@ -21,6 +21,6 @@ export default function Info() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
