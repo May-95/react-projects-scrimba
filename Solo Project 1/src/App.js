@@ -1,15 +1,15 @@
 import Info from "./components/Info.js";
 import About from "./components/About.js";
 import Interest from "./components/Interest.js";
-import Links from "./components/Links.js";
+import Footer from "./components/Footer.js";
 
 export default function App() {
   return (
-    <div className="container">
+    <section className="container">
       <Info />
       <About />
       <Interest />
-      <Links />
-    </div>
+      <Footer />
+    </section>
   );
 }
