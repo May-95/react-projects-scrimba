@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  color: #2b283a;
+  font-family: "Inter", sans-serif;
+  font-size: 10.24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar component css */
+.navbar-component {
+  align-items: center;
+  background-color: #f55a5a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 55px;
+  text-align: center;
+}
+
+.journal-title {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  padding-left: 7px;
+}
